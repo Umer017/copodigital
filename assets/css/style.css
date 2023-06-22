@@ -1,0 +1,323 @@
+
+/*sticky header position*/
+.sticky.is-sticky {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+body {
+  min-height: 1200px;
+}
+nav {
+  background: #eaebec;
+  min-height: 85px;
+}
+
+
+.navbar-brand1{
+    font-size: 30px;
+    text-decoration: none;
+    color: #0085ff;
+}
+
+.navbar-brand1 b{
+    text-decoration: none;
+}
+
+.bg-image {
+    background-image: url('https://cdn.wallpapersafari.com/69/40/je1YBO.jpg');
+    background-size: 50vh;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title {
+    color: #fff;
+    font-size: 150px;
+    text-align: center;
+  }
+
+
+
+
+
+  /* footer */
+
+  .footer {
+    position: relative;
+    padding-top: 45px;
+    background: #121518;
+  }
+  
+  .footer .newsletter {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto 45px auto;
+    padding: 30px 15px;
+    background: #000000;
+    text-align: center;
+  }
+  
+  .footer .newsletter h2 {
+    color: #dddddd;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .footer .newsletter .form {
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .footer .newsletter input {
+    height: 50px;
+    border: 2px solid #cdcdcd;
+    border-radius: 0;
+  }
+  
+  .footer .newsletter .btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 40px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #0085ff;
+    background: #121518;
+    border-radius: 0;
+    border: 2px solid #0085ff;
+    transition: .3s;
+  }
+  
+  .footer .newsletter .btn:hover {
+    color: #ffffff;
+    background: #0085ff;
+  }
+  
+  .footer .newsletter .btn:focus {
+    box-shadow: none;
+  }
+  
+  .footer .footer-about,
+  .footer .footer-link,
+  .footer .footer-contact {
+    position: relative;
+    margin-bottom: 45px;
+    color: #dddddd;
+  }
+  
+  .footer .footer-about h3,
+  .footer .footer-link h3,
+  .footer .footer-contact h3{
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #0085ff;
+  }
+  
+  .footer .footer-link a {
+    display: block;
+    margin-bottom: 10px;
+    color: #dddddd;
+    transition: .3s;
+    text-transform: capitalize;
+  }
+  
+  .footer .footer-link a::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+  }
+  
+  .footer .footer-link a:hover {
+    color: #0085ff;
+    letter-spacing: 1px;
+  }
+  
+  .footer .footer-contact p i {
+    width: 25px;
+  }
+  
+  .footer .footer-social {
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  .footer .footer-social a {
+    display: inline-block;
+  }
+  
+  .footer .footer-social a i {
+    margin-right: 15px;
+    font-size: 18px;
+    color: #0085ff;
+  }
+  
+  .footer .footer-social a:last-child i {
+    margin: 0;
+  }
+  
+  .footer .footer-social a:hover i {
+    color: #dddddd;
+  }
+  
+  .footer .footer-menu .f-menu {
+    position: relative;
+    padding: 10px 0;
+    font-size: 0;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+  }
+  
+  .footer .footer-menu .f-menu a {
+    color: #dddddd;
+    font-size: 16px;
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgba(255, 255, 255, .3);
+  }
+  
+  .footer .footer-menu .f-menu a:hover {
+    color: #0085ff;
+  }
+  
+  .footer .footer-menu .f-menu a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+  }
+  
+  .footer .copyright {
+    padding: 30px 15px;
+  }
+  
+  .footer .copyright p {
+    margin: 0;
+    color: #dddddd;
+  }
+  
+  .footer .copyright .col-md-6:last-child p {
+    text-align: right;
+  }
+  
+  .footer .copyright p a {
+    color: #0085ff;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  
+  .footer .copyright p a:hover {
+    color: #ffffff;
+  }
+  
+  @media (max-width: 768px) {
+    .footer .copyright p,
+    .footer .copyright .col-md-6:last-child p {
+      margin: 5px 0;
+      text-align: center;
+    }
+  }
+  
+.my-bg{
+    background-color: #e8e8e8;
+}
+
+.slider-round img{
+    border-radius: 40px;
+    height: 90%;
+}
+
+
+/*---------------card-------------------*/
+
+.card {
+    border: none;
+    border-radius: 10px
+}
+
+.c-details span {
+    font-weight: 300;
+    font-size: 13px
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 39px
+}
+
+.badge span {
+    background-color: #fffbec;
+    width: 60px;
+    height: 25px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    display: flex;
+    color: #fed85d;
+    justify-content: center;
+    align-items: center
+}
+
+.progress {
+    height: 10px;
+    border-radius: 10px
+}
+
+.progress div {
+    background-color: red
+}
+
+.text1 {
+    font-size: 14px;
+    font-weight: 600
+}
+
+.text2 {
+    color: #a5aec0
+}
+
+.card-bg-1{
+    background-image: url('https://webartdevelopers.com/blog/wp-content/uploads/2019/02/Animated-Ripples-Background-HTML-CSS.gif');
+}
+.card-bg-2{
+    background-image: url('https://images.ctfassets.net/zkqwmjl9nf4n/362JQyDWWHzMt51EP44JsV/e7b4de4b3ffd165aced57498029a749f/website_design_consultation_form_Thumbnail.png');
+}
+
+.card-bg-3{
+    -webkit-transform: scaleX (-1); transform: scaleX (-1);
+    
+    background-image: url('https://webartdevelopers.com/blog/wp-content/uploads/2019/02/Animated-Ripples-Background-HTML-CSS.gif');
+}
+
+
+hr{
+    height: 30px;
+    color: #000000;
+}
+
+.divider{
+    position: relative;
+    height: 3px;
+    color: #000000;
+}
